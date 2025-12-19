@@ -1,0 +1,22 @@
+{
+  "name": "auto-news-poster",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Auto-News-Poster/ ├── Main.js                          # Main entry point ├── postOnBlogger.js                 # Blogger publishing module ├── LastArticles.json               # Tracks posted articles ├── package.json                     # Dependencies │ ├── Article/ │   ├── Scrape.js                   # Web scraping logic │   ├── rewrite.js                  # Article rewriting using AI tool │   ├── atricle_collection.js       # Builds HTML article from components │   └── IMG_Creation/ │       ├── image.js                # Image generation & Google Drive upload │       └── textToImage.html        # HTML for image generation │ └── GoogleIntegration/     ├── authorization.js            # Google OAuth setup     └── TookenCreation/         └── Genrate-Token.js       # Token generation script         └── credentials.json           └── Token.json",
+  "main": "Browser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "gaxios": "^7.1.3",
+    "google-auth-library": "^10.5.0",
+    "googleapis": "^169.0.0",
+    "is-online": "^12.0.2",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.57.0"
+  }
+}
